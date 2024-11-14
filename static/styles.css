@@ -1,5 +1,7 @@
 :root {
-    --brand-color: blue;
+    --brand-color-dark: #0000be;
+    --brand-color: #0000ff;
+    --brand-color-light: #9191ff;
 }
 
 * {
@@ -8,6 +10,15 @@
 
 .btn {
     background-color: var(--brand-color);
-    border: none;
+    border-radius: 1em;
+
     padding: 0.5rem;
+    border: none;
+
+    &:hover {
+        background-color: var(--brand-color-light);
+    }
+    &:active {
+        background-color: var(--brand-color-dark);
+    }
 }
