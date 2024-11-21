@@ -2,11 +2,12 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Wochenübersicht</title>   
+        <title>Wochenübersicht Tabelle</title>
+        <link type="text/css" rel="stylesheet" href="table_styles.css">
     </head>
     <body>
-        <table border="1">
-            <tr>
+        <table>
+            <tr class="table-header">
                 <td><strong>Tage</strong></td>
                 <td><strong>Tätigkeit</strong></td>
                 <td><strong>Abteilung</strong></td>
@@ -14,7 +15,7 @@
                 <td><strong>Zeit gesamt</strong></td>
             </tr>
             <tr>
-                <td>Montag</td>
+                <td class="weekday">Montag</td>
                 <td>
                     <p>Beispieltätgkeit 1</p>
                     <p>Beispieltätgkeit 2</p>
@@ -23,14 +24,16 @@
                     <p>Bsp. Abt. 1</p>
                     <p>Bsp. Abt. 2</p>
                 </td>
-                <td>
+                <td class="time">
                     <p>5 Std.</p>
                     <p>3 Std.</p>
                 </td>
-                <td>8 Std.</td>
+                <td class="time">
+                    <p>8 Std.</p>
+                </td>
             </tr>
             <tr>
-                <td>Dienstag</td>
+                <td class="weekday">Dienstag</td>
                 <td>
                     <p>Beispieltätgkeit 1</p>
                     <p>Beispieltätgkeit 2</p>
@@ -43,29 +46,33 @@
                     <p>Bsp. Abt. 2</p>
                     <p>Bsp. Abt. 2</p>
                 </td>
-                <td>
+                <td class="time">
                     <p>1 Std.</p>
                     <p>2 Std.</p>
                     <p>3 Std.</p>
                     <p>2 Std.</p>
                 </td>
-                <td>8 Std.</td>
+                <td class="time">
+                    <p>8 Std.</p>
+                </td>
             </tr>
             <tr>
-                <td>Mittwoch</td>
+                <td class="weekday">Mittwoch</td>
                 <td>
                     <p>Beispieltätgkeit 1</p>
                 </td>
                 <td>
                     <p>Bsp. Abt. 1</p>
                 </td>
-                <td>
+                <td class="time">
                     <p>8 Std.</p>
                 </td>
-                <td>8 Std.</td>
+                <td class="time">
+                    <p>8 Std.</p>
+                </td>
             </tr>
             <tr>
-                <td>Donnerstag</td>
+                <td class="weekday">Donnerstag</td>
                 <td>
                     <p>Beispieltätgkeit 1</p>
                     <p>Beispieltätgkeit 2</p>
@@ -74,11 +81,13 @@
                     <p>Bsp. Abt. 1</p>
                     <p>Bsp. Abt. 2</p>
                 </td>
-                <td>
+                <td class="time">
                     <p>5 Std.</p>
                     <p>2 Std.</p>
                 </td>
-                <td>7 Std.</td>
+                <td class="time">
+                    <p>7 Std.</p>
+                </td>
             </tr>
         </table>
     </body>
