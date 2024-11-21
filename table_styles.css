@@ -1,5 +1,5 @@
 table, td, tr {
-    border: 2px,solid,rgb(10, 50, 121);
+    border: 2px,solid, var(--brand-color-dark);
     border-collapse: collapse;
     padding: 4px;
 }
@@ -7,9 +7,9 @@ table, td, tr {
     text-align: right;
 }
 tr.table-header {
-    background: rgb(10,75,121);
+    background: var(--brand-color);
     color: rgb(255, 255, 255);
 }
 td.weekday:hover {
-    color: rgb(40, 125, 188);
+    color: var(--brand-color-light);
 }
