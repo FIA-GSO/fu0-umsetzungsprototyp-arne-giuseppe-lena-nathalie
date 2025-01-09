@@ -41,8 +41,7 @@
             const username = document.getElementById("username").value;
 
             if (username === "Giuseppe" && password === "Giuseppe123") {
-                localStorage.password=password
-                localStorage.username = username;
+                localStorage.setItem("loggedIn", "true")
                 window.location.href = "index.html";
             } else {
                 console.log("Falscher Benutzername oder Passwort.");

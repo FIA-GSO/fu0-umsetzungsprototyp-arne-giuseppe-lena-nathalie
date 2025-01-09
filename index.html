@@ -23,7 +23,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Einstellungen</a>
-                </li>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -41,40 +41,18 @@
                     <th scope="col">Tag</th>
                     <th scope="col">Tätigkeit</th>
                     <th scope="col">Abteilung</th>
-                    <th scope="col">Zeitaufwand</th>
                     <th scope="col">Stunden</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">Montag</th>
-                    <td>Kaffe kochen <br/>Werkstatt fegen</td>
-                    <td>Werkstatt</td>
-                    <td>4, 4</td>
-                    <td>8</td>
-                </tr>
-                <tr>
-                    <th scope="row">Dienstag</th>
-                    <td>Toller Unterricht</td>
-                    <td>Berufsschule</td>
-                    <td>8</td>
-                    <td>8</td>
-                </tr>
-                <tr>
-                    <th scope="row">Mittwoch</th>
-                    <td>Kaffe kochen <br/>Werkstatt fegen</td>
-                    <td>Werkstatt</td>
-                    <td>4, 4</td>
-                    <td>8</td>
-                </tr>
+                <tbody id="activity-table">
                 </tbody>
             </table>
             <p><strong>Gesamt:</strong> 31 Std</p>
-            <button type="button" id="newDay" onclick="addThursday()" class="btn btn-secondary col-md-4 col-12">+ Tag hinzufügen</button>
+            <button type="button" id="newDay" onclick="addEnty()" class="btn btn-secondary col-md-4 col-12">+ Tag hinzufügen</button>
             <button type="button" class="btn btn-primary col-12">Signieren und Abschicken</button>
         </div>
     </div>
 </div>
-    <script type="text/javascript" src="OLD/backend/overview.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
